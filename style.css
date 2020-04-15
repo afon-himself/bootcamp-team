@@ -1,41 +1,54 @@
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 20px;
-    font-size: 16px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px;
+  font-size: 16px;
 }
 
 h1 {
-    font-size: 24px;
-    color: #845EC2;
+  font-size: 24px;
+  color: #845ec2;
 }
 
 ul.no-decoration {
-    list-style-type: none;
-    margin: 20px;
-    padding: 20px;
+  list-style-type: none;
+  margin: 20px;
+  padding: 20px;
 }
 
 a.member-url {
-    text-decoration: none;
-    padding: 20px;
-    display: inline-block;
-    width: 400px;
-    border: 1px solid #B39CD0;
-    border-radius: 20px;
-    margin-bottom: 10px;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  width: 400px;
+  border: 1px solid #b39cd0;
+  border-radius: 20px;
+  margin-bottom: 10px;
 }
 
 a.member-url:hover {
-    background: #B39CD0;
-    color: white;
+  background: #b39cd0;
+  color: white;
 }
 
 main {
-    display: flex;
-    width: 400px;
-    border: 1px solid #B39CD0;
-    border-radius: 20px;
-    padding: 20px;
-    margin-top: 40px;
+  display: flex;
+  width: 400px;
+  border: 1px solid #b39cd0;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.photo img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.description {
+    margin-left: 20px;
 }
